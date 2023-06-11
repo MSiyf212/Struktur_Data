@@ -152,7 +152,7 @@ class BST:
     return search
 
   
-  cari_root = Search(data)
+cari_root = Search(data)
 ketemu = cari_root.searching("latest_price", closest_average(data["latest_price"]))
 key = {}
 for i in ketemu:
